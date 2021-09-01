@@ -8,18 +8,25 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: dirt
-  m_Shader: {fileID: 4800000, guid: 8d2bb70cbf9db8d4da26e15b26e74248, type: 3}
-  m_ShaderKeywords: _GLOSSINESS_FROM_BASE_ALPHA _SPECULAR_COLOR
+  m_Shader: {fileID: -6465566751694194690, guid: 12dd83a5f11f5a147891643d058746e7, type: 3}
+  m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2000
-  stringTagMap:
-    RenderType: Opaque
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_3B7C4196:
+        m_Texture: {fileID: 2800000, guid: 579da9c16f16c664e9c9cdc82b2e38c1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_6DF96978:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BaseMap:
         m_Texture: {fileID: 2800000, guid: 579da9c16f16c664e9c9cdc82b2e38c1, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -53,6 +60,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Vector1_CB57B7A1: 0
+    - Vector1_D405F4F7: 0
+    - Vector1_E3F57BE1: 0
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -70,7 +80,10 @@ Material:
     - _SrcBlend: 1
     - _Surface: 0
     - _ZWrite: 1
+    - _blend: 1
     m_Colors:
+    - Color_3B3500A8: {r: 0, g: 0, b: 0, a: 0}
+    - Color_49111F91: {r: 1, g: 1, b: 1, a: 0}
     - _BaseColor: {r: 0.7794118, g: 0.7794118, b: 0.7794118, a: 1}
     - _Color: {r: 0.7794118, g: 0.7794118, b: 0.7794118, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
